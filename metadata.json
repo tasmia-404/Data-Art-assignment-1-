@@ -1,0 +1,5 @@
+{
+  "name": "Interactive Historical Timeline",
+  "description": "A responsive, interactive timeline of historical events. Users can click on events to view more details in a modal window and toggle between light and dark themes.",
+  "requestFramePermissions": []
+}

@@ -1,21 +1,20 @@
-# Timeline App
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A simple web app for visualizing events on a clean timeline.
+# Run and deploy your AI Studio app
 
-## Features
-- Responsive timeline design
-- Light/dark theme toggle
-- Clean, modern UI
+This contains everything you need to run your app locally.
 
-## Quick Start
-1. Open `index.html` in your browser
-2. Click "Toggle Theme" to switch themes
-3. Ready to use!
+View your app in AI Studio: https://ai.studio/apps/drive/12_nXkjLeQTQVlgMui2Zlg16TL8zt7hB1
 
-## Tech Stack
-- HTML5
-- CSS3
-- Vanilla JavaScript
+## Run Locally
 
-## Customization
-Edit CSS variables in `:root` to change colors.
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
